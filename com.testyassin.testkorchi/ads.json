@@ -1,0 +1,50 @@
+{
+  "App": {
+    "source": "1,2,3",
+    "backupserver": "1",
+    "source_channels": "1",
+    "ShowEvents": true,
+    "ShowChannels": true
+  },
+  "Ads": {
+    "enabled": false,
+    "tradplus": {
+      "enabled": false,
+      "appId": ""
+    },
+    "meta": {
+      "enabled": false,
+      "appId": "",
+      "placementId": ""
+    },
+    "mintegral": {
+      "enabled": false,
+      "appId": "",
+      "placementId": ""
+    },
+    "vungle": {
+      "enabled": false,
+      "appId": "",
+      "placementId": ""
+    },
+    "interstitial": {
+      "enabled": false,
+      "everyClicks": 3,
+      "placementId": ""
+    },
+    "banner": {
+      "enabled": false,
+      "placementId": ""
+    },
+    "rewarded": {
+      "enabled": false,
+      "placementId": ""
+    }
+  },
+  "playerConfig": {
+    "mode": "internal",
+    "allowExternal": false,
+    "defaultExternalPlayer": "",
+    "players": []
+  }
+}
