@@ -1,4 +1,5 @@
 {
+  "version": "1.0",
   "App": {
     "source": "1,2,3",
     "backupserver": "1",
@@ -6,45 +7,150 @@
     "ShowEvents": true,
     "ShowChannels": true
   },
-  "Ads": {
-    "enabled": false,
-    "tradplus": {
-      "enabled": false,
-      "appId": ""
+
+  "playerConfig": {
+    "mode": "internal",
+    "allowExternal": false,
+    "defaultExternalPlayer": "",
+    "allowFallback": false,
+    "players": [
+      {
+        "package": "com.sportiva.player",
+        "name": "Sportiva Player",
+        "enabled": false,
+        "priority": 1
+      },
+      {
+        "package": "com.great.lived",
+        "name": "Great Live",
+        "enabled": false,
+        "priority": 2
+      },
+      {
+        "package": "com.scores.mediaone",
+        "name": "MediaOne",
+        "enabled": false,
+        "priority": 3
+      },
+      {
+        "package": "com.streamhd.soccer",
+        "name": "StreamHD Soccer",
+        "enabled": false,
+        "priority": 4
+      },
+      {
+        "package": "org.watchtv.streams",
+        "name": "WatchTV",
+        "enabled": false,
+        "priority": 5
+      },
+      {
+        "package": "com.stream.livemax",
+        "name": "LiveMax",
+        "enabled": false,
+        "priority": 6
+      },
+      {
+        "package": "com.hdscore.playhd",
+        "name": "HDScore",
+        "enabled": false,
+        "priority": 7
+      }
+    ]
+  },
+
+  "sources": {
+    "source1": {
+      "enabled": true,
+      "name": "Source 1",
+      "priority": 1,
+      "apiUrl": "https://streamed.pk/api/matches/all",
+      "apiPopularUrl": "https://streamed.pk/api/matches/live/popular-viewcount",
+      "apiStreamUrl": "https://streamed.pk/api/stream/{source}/{id}",
+      "referer": "https://embedsports.top/",
+      "origin": "https://embedsports.top",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
+      },
+      "timeout": 10000
     },
+
+    "source2": {
+      "enabled": true,
+      "name": "Source 2",
+      "priority": 2,
+      "apiUrl": "https://api.ppv.st/api/streams",
+      "embedBaseUrl": "https://embedindia.st/embed/{uri_name}",
+      "referer": "https://embedindia.st/",
+      "origin": "https://embedindia.st",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
+      },
+      "fallbackEnabled": true,
+      "timeout": 10000
+    },
+
+    "source3": {
+      "enabled": true,
+      "name": "Source 3",
+      "priority": 3,
+      "apiUrl": "https://countries.ajad.uk/live_events.json",
+      "defaultMimeType": "application/x-mpegURL",
+      "referer": "https://cdnlivetv.tv/",
+      "origin": "https://cdnlivetv.tv",
+      "headers": {},
+      "events": []
+    }
+  },
+
+  "channels": {
+    "cdnLiveApi": "https://api.cdnlivetv.tv/api/v1/channels/?user=cdnlivetv&plan=free",
+    "cdnLiveReferer": "https://cdnlivetv.tv/",
+    "cdnLiveOrigin": "https://cdnlivetv.tv",
+    "duloApi": "https://dulo.tv/api/live-tv/channels",
+    "duloApiKey": "WDNUNBUB3HR983Y9ISBADK4O"
+  },
+
+  "Ads": {
+    "enabled": true,
+
+    "tradplus": {
+      "enabled": true,
+      "appId": "C930F24BA061D59303E150CE05ECB11"
+    },
+
     "meta": {
       "enabled": false,
       "appId": "",
       "placementId": ""
     },
+
     "mintegral": {
       "enabled": false,
       "appId": "",
       "placementId": ""
     },
+
     "vungle": {
       "enabled": false,
       "appId": "",
       "placementId": ""
     },
+
     "interstitial": {
-      "enabled": false,
+      "enabled": true,
       "everyClicks": 3,
-      "placementId": ""
+      "placementId": "6FC67E922DF13A7F71E3CB44D91C5F12"
     },
+
     "banner": {
       "enabled": false,
       "placementId": ""
     },
+
     "rewarded": {
       "enabled": false,
       "placementId": ""
     }
-  },
-  "playerConfig": {
-    "mode": "internal",
-    "allowExternal": false,
-    "defaultExternalPlayer": "",
-    "players": []
   }
 }
