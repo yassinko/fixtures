@@ -1,5 +1,6 @@
 {
   "version": "1.0",
+
   "App": {
     "source": "1,2,3",
     "backupserver": "1",
@@ -91,7 +92,7 @@
     },
 
     "source3": {
-      "enabled": false,
+      "enabled": true,
       "name": "Source 3",
       "priority": 3,
       "apiUrl": "https://countries.ajad.uk/live_events.json",
@@ -116,41 +117,86 @@
 
     "tradplus": {
       "enabled": true,
-      "appId": "C930F24BA061D59303E150CE05ECB11"
+      "appId": "C930F24BA061D59303E150CE05ECB11",
+
+      "interstitial": {
+        "enabled": true,
+        "everyClicks": 3,
+        "placementId": "6FC67E922DF13A7F71E3CB44D91C5F12"
+      },
+
+      "banner": {
+        "enabled": false,
+        "placementId": ""
+      },
+
+      "rewarded": {
+        "enabled": false,
+        "placementId": ""
+      }
     },
 
     "meta": {
       "enabled": false,
       "appId": "",
-      "placementId": ""
+
+      "interstitial": {
+        "enabled": false,
+        "everyClicks": 3,
+        "placementId": ""
+      },
+
+      "banner": {
+        "enabled": false,
+        "placementId": ""
+      },
+
+      "rewarded": {
+        "enabled": false,
+        "placementId": ""
+      }
     },
 
     "mintegral": {
       "enabled": false,
       "appId": "",
-      "placementId": ""
+
+      "interstitial": {
+        "enabled": false,
+        "everyClicks": 3,
+        "placementId": ""
+      },
+
+      "banner": {
+        "enabled": false,
+        "placementId": ""
+      },
+
+      "rewarded": {
+        "enabled": false,
+        "placementId": ""
+      }
     },
 
     "vungle": {
       "enabled": false,
       "appId": "",
-      "placementId": ""
-    },
 
-    "interstitial": {
-      "enabled": true,
-      "everyClicks": 3,
-      "placementId": "6FC67E922DF13A7F71E3CB44D91C5F12"
-    },
+      "interstitial": {
+        "enabled": false,
+        "everyClicks": 3,
+        "placementId": ""
+      },
 
-    "banner": {
-      "enabled": false,
-      "placementId": ""
-    },
+      "banner": {
+        "enabled": false,
+        "placementId": ""
+      },
 
-    "rewarded": {
-      "enabled": false,
-      "placementId": ""
+      "rewarded": {
+        "enabled": false,
+        "placementId": ""
+      }
     }
   }
 }
