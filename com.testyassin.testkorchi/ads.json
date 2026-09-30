@@ -91,7 +91,7 @@
     },
 
     "source3": {
-      "enabled": true,
+      "enabled": false,
       "name": "Source 3",
       "priority": 3,
       "apiUrl": "https://countries.ajad.uk/live_events.json",
