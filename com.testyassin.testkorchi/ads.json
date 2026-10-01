@@ -95,7 +95,7 @@
       "enabled": true,
       "name": "Source 3",
       "priority": 3,
-      "apiUrl": "https://countries.ajad.uk/live_events.json",
+      "apiUrl": "https://yassinko.github.io/fixtures/source3tv.manual/live_events.json",
       "defaultMimeType": "application/x-mpegURL",
       "referer": "https://cdnlivetv.tv/",
       "origin": "https://cdnlivetv.tv",
