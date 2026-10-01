@@ -1,0 +1,72 @@
+{
+  "LiveEvents": [
+    {
+      "MatchStatus": "LIVE",
+      "FirstTeamLogo": "https://www.livefoot.fr/images/real_madrid.png",
+      "FirstTeamName": "real madrid",
+      "SecondTeamLogo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/83.png",
+      "SecondTeamName": "Barcelona",
+      "MatchTime": "18:30",
+      "StreamData": [
+        {
+          "StreamLink": "https://cdn-live-tv.ru/api/v1/channels/es-m-liga-de-campeones-1/tracks-v1a1/mono.ts.m3u8",
+          "UseTimStreamerDecoder": false,
+          "UseCDNDecoder":true,
+          "NewappHeaders": [
+            "origin",
+            "referer"
+          ],
+          "NewappHeadersValues": [
+            "https://stellarthread.com",
+            "https://stellarthread.com/"
+          ]
+        },
+        {
+          "StreamLink": "https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master.m3u8",
+          "UseTimStreamerDecoder": false,
+          "UseCDNDecoder":true,
+          "NewappHeaders": [
+            "origin",
+            "referer"
+          ],
+          "NewappHeadersValues": [
+            "https://stellarthread.com",
+            "https://stellarthread.com/"
+          ]
+        },
+        {
+          "StreamLink": "https://lb15.strmd.st/secure/koynkTTRBFQyymBirfMsNvZvjUHkAjeN/rtmp/stream/76qMvPzlQQKZCB60s9RZn__eow06FVZQuxnNLd0RTZgREwmd0vrlTsPa1DR4ROQCNZ0/1/playlist.m3u8",
+          "UseTimStreamerDecoder": false,
+          "UseCDNDecoder":true,
+          "NewappHeaders": [
+            "origin",
+            "referer"
+          ],
+          "NewappHeadersValues": [
+            "https://stellarthread.com",
+            "https://stellarthread.com/"
+          ]
+        },
+        {
+          "StreamLink": "https://lb3.strmd.st/secure/qXXZvNLQIVuNDJIgbKUYrwPJSrLYyTxH/rtmp/stream/streamed-willow_720/1/playlist.m3u8",
+          "UseTimStreamerDecoder": false,
+          "UseCDNDecoder":true,
+          "NewappHeaders": [
+            "origin",
+            "referer"
+          ],
+          "NewappHeadersValues": [
+            "https://stellarthread.com",
+            "https://stellarthread.com/"
+          ]
+        }
+      ],
+      "PlayIn": "player",
+      "CupName": "Europe - UEFA Champions League",
+      "TV": "beIN Sports HD, beIN SPORTS CONNECT, TOD",
+      "Tickets": "Available",
+      "LocationWeather": "Fortuna Arena, Prague",
+      "Odds": "UCL Odds"
+    }
+  ]
+}
